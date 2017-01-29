@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDCD18F01E3EA5AC005E7502 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCD18EF1E3EA5AC005E7502 /* AppDelegate.swift */; };
+		DDCD18F21E3EA5AC005E7502 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCD18F11E3EA5AC005E7502 /* ViewController.swift */; };
+		DDCD18F51E3EA5AC005E7502 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDCD18F31E3EA5AC005E7502 /* Main.storyboard */; };
+		DDCD18F71E3EA5AC005E7502 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDCD18F61E3EA5AC005E7502 /* Assets.xcassets */; };
+		DDCD18FA1E3EA5AC005E7502 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDCD18F81E3EA5AC005E7502 /* LaunchScreen.storyboard */; };
+		DDCD19051E3EA5AC005E7502 /* Yahoo_WeatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCD19041E3EA5AC005E7502 /* Yahoo_WeatherTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDCD19011E3EA5AC005E7502 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDCD18E41E3EA5AC005E7502 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDCD18EB1E3EA5AC005E7502;
+			remoteInfo = "Yahoo Weather";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DDCD18EC1E3EA5AC005E7502 /* Yahoo Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Yahoo Weather.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDCD18EF1E3EA5AC005E7502 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DDCD18F11E3EA5AC005E7502 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DDCD18F41E3EA5AC005E7502 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DDCD18F61E3EA5AC005E7502 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDCD18F91E3EA5AC005E7502 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DDCD18FB1E3EA5AC005E7502 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDCD19001E3EA5AC005E7502 /* Yahoo WeatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Yahoo WeatherTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDCD19041E3EA5AC005E7502 /* Yahoo_WeatherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yahoo_WeatherTests.swift; sourceTree = "<group>"; };
+		DDCD19061E3EA5AC005E7502 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDCD18E91E3EA5AC005E7502 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDCD18FD1E3EA5AC005E7502 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDCD18E31E3EA5AC005E7502 = {
+			isa = PBXGroup;
+			children = (
+				DDCD18EE1E3EA5AC005E7502 /* Yahoo Weather */,
+				DDCD19031E3EA5AC005E7502 /* Yahoo WeatherTests */,
+				DDCD18ED1E3EA5AC005E7502 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDCD18ED1E3EA5AC005E7502 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDCD18EC1E3EA5AC005E7502 /* Yahoo Weather.app */,
+				DDCD19001E3EA5AC005E7502 /* Yahoo WeatherTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDCD18EE1E3EA5AC005E7502 /* Yahoo Weather */ = {
+			isa = PBXGroup;
+			children = (
+				DDCD18EF1E3EA5AC005E7502 /* AppDelegate.swift */,
+				DDCD18F11E3EA5AC005E7502 /* ViewController.swift */,
+				DDCD18F31E3EA5AC005E7502 /* Main.storyboard */,
+				DDCD18F61E3EA5AC005E7502 /* Assets.xcassets */,
+				DDCD18F81E3EA5AC005E7502 /* LaunchScreen.storyboard */,
+				DDCD18FB1E3EA5AC005E7502 /* Info.plist */,
+			);
+			path = "Yahoo Weather";
+			sourceTree = "<group>";
+		};
+		DDCD19031E3EA5AC005E7502 /* Yahoo WeatherTests */ = {
+			isa = PBXGroup;
+			children = (
+				DDCD19041E3EA5AC005E7502 /* Yahoo_WeatherTests.swift */,
+				DDCD19061E3EA5AC005E7502 /* Info.plist */,
+			);
+			path = "Yahoo WeatherTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDCD18EB1E3EA5AC005E7502 /* Yahoo Weather */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDCD19091E3EA5AC005E7502 /* Build configuration list for PBXNativeTarget "Yahoo Weather" */;
+			buildPhases = (
+				DDCD18E81E3EA5AC005E7502 /* Sources */,
+				DDCD18E91E3EA5AC005E7502 /* Frameworks */,
+				DDCD18EA1E3EA5AC005E7502 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Yahoo Weather";
+			productName = "Yahoo Weather";
+			productReference = DDCD18EC1E3EA5AC005E7502 /* Yahoo Weather.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DDCD18FF1E3EA5AC005E7502 /* Yahoo WeatherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDCD190C1E3EA5AC005E7502 /* Build configuration list for PBXNativeTarget "Yahoo WeatherTests" */;
+			buildPhases = (
+				DDCD18FC1E3EA5AC005E7502 /* Sources */,
+				DDCD18FD1E3EA5AC005E7502 /* Frameworks */,
+				DDCD18FE1E3EA5AC005E7502 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDCD19021E3EA5AC005E7502 /* PBXTargetDependency */,
+			);
+			name = "Yahoo WeatherTests";
+			productName = "Yahoo WeatherTests";
+			productReference = DDCD19001E3EA5AC005E7502 /* Yahoo WeatherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDCD18E41E3EA5AC005E7502 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Apro;
+				TargetAttributes = {
+					DDCD18EB1E3EA5AC005E7502 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					DDCD18FF1E3EA5AC005E7502 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DDCD18EB1E3EA5AC005E7502;
+					};
+				};
+			};
+			buildConfigurationList = DDCD18E71E3EA5AC005E7502 /* Build configuration list for PBXProject "Yahoo Weather" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDCD18E31E3EA5AC005E7502;
+			productRefGroup = DDCD18ED1E3EA5AC005E7502 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDCD18EB1E3EA5AC005E7502 /* Yahoo Weather */,
+				DDCD18FF1E3EA5AC005E7502 /* Yahoo WeatherTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDCD18EA1E3EA5AC005E7502 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDCD18FA1E3EA5AC005E7502 /* LaunchScreen.storyboard in Resources */,
+				DDCD18F71E3EA5AC005E7502 /* Assets.xcassets in Resources */,
+				DDCD18F51E3EA5AC005E7502 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDCD18FE1E3EA5AC005E7502 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDCD18E81E3EA5AC005E7502 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDCD18F21E3EA5AC005E7502 /* ViewController.swift in Sources */,
+				DDCD18F01E3EA5AC005E7502 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDCD18FC1E3EA5AC005E7502 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDCD19051E3EA5AC005E7502 /* Yahoo_WeatherTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDCD19021E3EA5AC005E7502 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDCD18EB1E3EA5AC005E7502 /* Yahoo Weather */;
+			targetProxy = DDCD19011E3EA5AC005E7502 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DDCD18F31E3EA5AC005E7502 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDCD18F41E3EA5AC005E7502 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DDCD18F81E3EA5AC005E7502 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDCD18F91E3EA5AC005E7502 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDCD19071E3EA5AC005E7502 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DDCD19081E3EA5AC005E7502 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDCD190A1E3EA5AC005E7502 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Yahoo Weather/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.aprofromindia.Yahoo-Weather";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DDCD190B1E3EA5AC005E7502 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Yahoo Weather/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.aprofromindia.Yahoo-Weather";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		DDCD190D1E3EA5AC005E7502 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Yahoo WeatherTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.aprofromindia.Yahoo-WeatherTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yahoo Weather.app/Yahoo Weather";
+			};
+			name = Debug;
+		};
+		DDCD190E1E3EA5AC005E7502 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Yahoo WeatherTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.aprofromindia.Yahoo-WeatherTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yahoo Weather.app/Yahoo Weather";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDCD18E71E3EA5AC005E7502 /* Build configuration list for PBXProject "Yahoo Weather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDCD19071E3EA5AC005E7502 /* Debug */,
+				DDCD19081E3EA5AC005E7502 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDCD19091E3EA5AC005E7502 /* Build configuration list for PBXNativeTarget "Yahoo Weather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDCD190A1E3EA5AC005E7502 /* Debug */,
+				DDCD190B1E3EA5AC005E7502 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DDCD190C1E3EA5AC005E7502 /* Build configuration list for PBXNativeTarget "Yahoo WeatherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDCD190D1E3EA5AC005E7502 /* Debug */,
+				DDCD190E1E3EA5AC005E7502 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDCD18E41E3EA5AC005E7502 /* Project object */;
+}
