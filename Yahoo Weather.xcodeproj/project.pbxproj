@@ -7,12 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C7F6E073FCEB1073230D5ED /* Pods_Yahoo_Weather.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 820D8081E8DCFCE9A29870EC /* Pods_Yahoo_Weather.framework */; };
+		58FB1AAD4B7CC5DE80A23954 /* Pods_Yahoo_WeatherTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD55EA8B20CA63CBD52C0A53 /* Pods_Yahoo_WeatherTests.framework */; };
+		DD09AEE61E4D077D0058E8EC /* WeatherListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD09AEE51E4D077D0058E8EC /* WeatherListViewModel.swift */; };
+		DD09AEE81E4D07FC0058E8EC /* WeatherRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD09AEE71E4D07FC0058E8EC /* WeatherRepository.swift */; };
 		DDCD18F01E3EA5AC005E7502 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCD18EF1E3EA5AC005E7502 /* AppDelegate.swift */; };
-		DDCD18F21E3EA5AC005E7502 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCD18F11E3EA5AC005E7502 /* ViewController.swift */; };
+		DDCD18F21E3EA5AC005E7502 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCD18F11E3EA5AC005E7502 /* WeatherViewController.swift */; };
 		DDCD18F51E3EA5AC005E7502 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDCD18F31E3EA5AC005E7502 /* Main.storyboard */; };
 		DDCD18F71E3EA5AC005E7502 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDCD18F61E3EA5AC005E7502 /* Assets.xcassets */; };
 		DDCD18FA1E3EA5AC005E7502 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDCD18F81E3EA5AC005E7502 /* LaunchScreen.storyboard */; };
 		DDCD19051E3EA5AC005E7502 /* Yahoo_WeatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCD19041E3EA5AC005E7502 /* Yahoo_WeatherTests.swift */; };
+		DDCD19101E3EA64F005E7502 /* WeatherTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCD190F1E3EA64F005E7502 /* WeatherTableViewCell.swift */; };
+		DDCD19151E3EA947005E7502 /* RESTClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCD19141E3EA947005E7502 /* RESTClient.swift */; };
+		DDCD19171E3EA9BB005E7502 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCD19161E3EA9BB005E7502 /* Weather.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,9 +33,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		36D37354265211DB1C68933E /* Pods-Yahoo WeatherTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yahoo WeatherTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Yahoo WeatherTests/Pods-Yahoo WeatherTests.release.xcconfig"; sourceTree = "<group>"; };
+		4BBE8218CDF35174071DDA9E /* Pods-Yahoo Weather.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yahoo Weather.release.xcconfig"; path = "Pods/Target Support Files/Pods-Yahoo Weather/Pods-Yahoo Weather.release.xcconfig"; sourceTree = "<group>"; };
+		640060DA6C512B8FDD2763A2 /* Pods-Yahoo Weather.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yahoo Weather.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Yahoo Weather/Pods-Yahoo Weather.debug.xcconfig"; sourceTree = "<group>"; };
+		820D8081E8DCFCE9A29870EC /* Pods_Yahoo_Weather.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Yahoo_Weather.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86993ED6504182D56A162FB8 /* Pods-Yahoo WeatherTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yahoo WeatherTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Yahoo WeatherTests/Pods-Yahoo WeatherTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CD55EA8B20CA63CBD52C0A53 /* Pods_Yahoo_WeatherTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Yahoo_WeatherTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD09AEE51E4D077D0058E8EC /* WeatherListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherListViewModel.swift; sourceTree = "<group>"; };
+		DD09AEE71E4D07FC0058E8EC /* WeatherRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherRepository.swift; sourceTree = "<group>"; };
 		DDCD18EC1E3EA5AC005E7502 /* Yahoo Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Yahoo Weather.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDCD18EF1E3EA5AC005E7502 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DDCD18F11E3EA5AC005E7502 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DDCD18F11E3EA5AC005E7502 /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
 		DDCD18F41E3EA5AC005E7502 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DDCD18F61E3EA5AC005E7502 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DDCD18F91E3EA5AC005E7502 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +51,9 @@
 		DDCD19001E3EA5AC005E7502 /* Yahoo WeatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Yahoo WeatherTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDCD19041E3EA5AC005E7502 /* Yahoo_WeatherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yahoo_WeatherTests.swift; sourceTree = "<group>"; };
 		DDCD19061E3EA5AC005E7502 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDCD190F1E3EA64F005E7502 /* WeatherTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherTableViewCell.swift; sourceTree = "<group>"; };
+		DDCD19141E3EA947005E7502 /* RESTClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RESTClient.swift; sourceTree = "<group>"; };
+		DDCD19161E3EA9BB005E7502 /* Weather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C7F6E073FCEB1073230D5ED /* Pods_Yahoo_Weather.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +69,58 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58FB1AAD4B7CC5DE80A23954 /* Pods_Yahoo_WeatherTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		778E736EE7CFFF8EB88A5BBD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				820D8081E8DCFCE9A29870EC /* Pods_Yahoo_Weather.framework */,
+				CD55EA8B20CA63CBD52C0A53 /* Pods_Yahoo_WeatherTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9ECA0D5264D5B745943F8EB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				640060DA6C512B8FDD2763A2 /* Pods-Yahoo Weather.debug.xcconfig */,
+				4BBE8218CDF35174071DDA9E /* Pods-Yahoo Weather.release.xcconfig */,
+				86993ED6504182D56A162FB8 /* Pods-Yahoo WeatherTests.debug.xcconfig */,
+				36D37354265211DB1C68933E /* Pods-Yahoo WeatherTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DD09AEE91E4D08270058E8EC /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				DD09AEE71E4D07FC0058E8EC /* WeatherRepository.swift */,
+				DDCD19161E3EA9BB005E7502 /* Weather.swift */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		DD09AEEB1E4D0A810058E8EC /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				DDCD190F1E3EA64F005E7502 /* WeatherTableViewCell.swift */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
 		DDCD18E31E3EA5AC005E7502 = {
 			isa = PBXGroup;
 			children = (
 				DDCD18EE1E3EA5AC005E7502 /* Yahoo Weather */,
 				DDCD19031E3EA5AC005E7502 /* Yahoo WeatherTests */,
 				DDCD18ED1E3EA5AC005E7502 /* Products */,
+				C9ECA0D5264D5B745943F8EB /* Pods */,
+				778E736EE7CFFF8EB88A5BBD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,8 +136,10 @@
 		DDCD18EE1E3EA5AC005E7502 /* Yahoo Weather */ = {
 			isa = PBXGroup;
 			children = (
+				DDCD19191E3EADD0005E7502 /* HTTP */,
+				DD09AEE91E4D08270058E8EC /* Data */,
+				DDCD19111E3EA73F005E7502 /* WeatherList */,
 				DDCD18EF1E3EA5AC005E7502 /* AppDelegate.swift */,
-				DDCD18F11E3EA5AC005E7502 /* ViewController.swift */,
 				DDCD18F31E3EA5AC005E7502 /* Main.storyboard */,
 				DDCD18F61E3EA5AC005E7502 /* Assets.xcassets */,
 				DDCD18F81E3EA5AC005E7502 /* LaunchScreen.storyboard */,
@@ -96,6 +157,24 @@
 			path = "Yahoo WeatherTests";
 			sourceTree = "<group>";
 		};
+		DDCD19111E3EA73F005E7502 /* WeatherList */ = {
+			isa = PBXGroup;
+			children = (
+				DD09AEEB1E4D0A810058E8EC /* Cell */,
+				DDCD18F11E3EA5AC005E7502 /* WeatherViewController.swift */,
+				DD09AEE51E4D077D0058E8EC /* WeatherListViewModel.swift */,
+			);
+			name = WeatherList;
+			sourceTree = "<group>";
+		};
+		DDCD19191E3EADD0005E7502 /* HTTP */ = {
+			isa = PBXGroup;
+			children = (
+				DDCD19141E3EA947005E7502 /* RESTClient.swift */,
+			);
+			name = HTTP;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +182,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DDCD19091E3EA5AC005E7502 /* Build configuration list for PBXNativeTarget "Yahoo Weather" */;
 			buildPhases = (
+				6E7351FF3AD89A68021C1F25 /* [CP] Check Pods Manifest.lock */,
 				DDCD18E81E3EA5AC005E7502 /* Sources */,
 				DDCD18E91E3EA5AC005E7502 /* Frameworks */,
 				DDCD18EA1E3EA5AC005E7502 /* Resources */,
+				21C21A728FFDFC0CC9CA51D7 /* [CP] Embed Pods Frameworks */,
+				758C58EDD8C93C55F577A0DA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +202,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DDCD190C1E3EA5AC005E7502 /* Build configuration list for PBXNativeTarget "Yahoo WeatherTests" */;
 			buildPhases = (
+				32C316B584E693FCCE72B2EF /* [CP] Check Pods Manifest.lock */,
 				DDCD18FC1E3EA5AC005E7502 /* Sources */,
 				DDCD18FD1E3EA5AC005E7502 /* Frameworks */,
 				DDCD18FE1E3EA5AC005E7502 /* Resources */,
+				E72FA09AB23B16783C96CDE3 /* [CP] Embed Pods Frameworks */,
+				DD5F53455CA86404055A9AB5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -194,13 +279,111 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		21C21A728FFDFC0CC9CA51D7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Yahoo Weather/Pods-Yahoo Weather-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		32C316B584E693FCCE72B2EF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6E7351FF3AD89A68021C1F25 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		758C58EDD8C93C55F577A0DA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Yahoo Weather/Pods-Yahoo Weather-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD5F53455CA86404055A9AB5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Yahoo WeatherTests/Pods-Yahoo WeatherTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E72FA09AB23B16783C96CDE3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Yahoo WeatherTests/Pods-Yahoo WeatherTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DDCD18E81E3EA5AC005E7502 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDCD18F21E3EA5AC005E7502 /* ViewController.swift in Sources */,
+				DDCD19101E3EA64F005E7502 /* WeatherTableViewCell.swift in Sources */,
+				DDCD18F21E3EA5AC005E7502 /* WeatherViewController.swift in Sources */,
+				DD09AEE81E4D07FC0058E8EC /* WeatherRepository.swift in Sources */,
 				DDCD18F01E3EA5AC005E7502 /* AppDelegate.swift in Sources */,
+				DD09AEE61E4D077D0058E8EC /* WeatherListViewModel.swift in Sources */,
+				DDCD19151E3EA947005E7502 /* RESTClient.swift in Sources */,
+				DDCD19171E3EA9BB005E7502 /* Weather.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,7 +518,9 @@
 		};
 		DDCD190A1E3EA5AC005E7502 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 640060DA6C512B8FDD2763A2 /* Pods-Yahoo Weather.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Yahoo Weather/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -347,7 +532,9 @@
 		};
 		DDCD190B1E3EA5AC005E7502 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BBE8218CDF35174071DDA9E /* Pods-Yahoo Weather.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Yahoo Weather/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -359,6 +546,7 @@
 		};
 		DDCD190D1E3EA5AC005E7502 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86993ED6504182D56A162FB8 /* Pods-Yahoo WeatherTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -373,6 +561,7 @@
 		};
 		DDCD190E1E3EA5AC005E7502 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36D37354265211DB1C68933E /* Pods-Yahoo WeatherTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -404,6 +593,7 @@
 				DDCD190B1E3EA5AC005E7502 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DDCD190C1E3EA5AC005E7502 /* Build configuration list for PBXNativeTarget "Yahoo WeatherTests" */ = {
 			isa = XCConfigurationList;
@@ -412,6 +602,7 @@
 				DDCD190E1E3EA5AC005E7502 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
