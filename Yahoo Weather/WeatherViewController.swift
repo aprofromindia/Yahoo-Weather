@@ -32,10 +32,11 @@ final class WeatherViewController: UITableViewController {
     
     private func setupNetworkActivityIndicator() {
         let networkDriver = viewModel.networkReqOngoing.asDriver()
+        
         networkDriver.drive(onNext: { ongoing in
             UIApplication.shared.isNetworkActivityIndicatorVisible = ongoing
         })
-            .addDisposableTo(disposeBag)
+        .addDisposableTo(disposeBag)
         
         networkDriver.filter { !$0 }
             .drive(onNext: { [unowned self] _ in
@@ -43,6 +44,18 @@ final class WeatherViewController: UITableViewController {
             })
             .addDisposableTo(disposeBag)
     }
+    
+    private func setupRefreshControl() {
+        refreshControl = UIRefreshControl()
+        refreshControl?.tintColor = UIColor.blue
+        refreshControl?.rx
+            .controlEvent(.primaryActionTriggered)
+            .subscribe(onNext: { [unowned self] in
+                self.viewModel.fetchWeatherList()
+            })
+            .addDisposableTo(disposeBag)
+    }
+    
     
     // MARK: - TableView setup
     
@@ -56,26 +69,12 @@ final class WeatherViewController: UITableViewController {
                                         cell.tempLabel.text = "\(weather.temp)"
                                         cell.dateLabel.text = dateFormatter.string(from: weather.date)
                                         cell.conditionLabel.text = weather.text
-                                        }
+            }
             .addDisposableTo(disposeBag)
         
         tableView.rx.itemSelected
             .subscribe(onNext: { [unowned self] indexPath in
                 self.tableView.deselectRow(at: indexPath, animated: true)
-            })
-            .addDisposableTo(disposeBag)
-    }
-    
-    
-    // MARK: - Refresh Control setup
-    
-    private func setupRefreshControl() {
-        refreshControl = UIRefreshControl()
-        refreshControl?.tintColor = UIColor.blue
-        refreshControl?.rx
-            .controlEvent(.primaryActionTriggered)
-            .subscribe(onNext: { [unowned self] in
-                self.viewModel.fetchWeatherList()
             })
             .addDisposableTo(disposeBag)
     }
